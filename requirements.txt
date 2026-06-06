@@ -1,0 +1,4 @@
+openpyxl
+request 
+BeautifulSoup
+playwright
