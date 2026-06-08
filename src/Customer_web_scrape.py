@@ -28,7 +28,7 @@ with sync_playwright() as p:
     
     for keyword in keywords:
         print(f"\n🎯 ==================== جاري بدء قشط صنف العميل: [{keyword}] ====================")
-        url = f"https://www.vinodpatel.com.fj/search?q={keyword}"
+        url = f"https://www.customerweb.com.fj/search?q={keyword}"
         
         print(f"🌐 جاري فتح الصفحة الأولى للصنف...")
         try:
