@@ -39,7 +39,7 @@ for keyword in keywords:
         writer = csv.writer(file)
         
         while True:
-            page_url = f"https://bunningspacific.com.fj/search?q={keyword}&page={page_number}"
+            page_url = f"https://comepetitorweb.com.fj/search?q={keyword}&page={page_number}"
             print(f"📄 جاري فحص الصفحة رقم [{page_number}] للصنف [{keyword}] عبر الرابط: {page_url}")
             
             try:
