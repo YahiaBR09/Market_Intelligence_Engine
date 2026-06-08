@@ -5,10 +5,10 @@ print("📊 جاري بدء عملية تحليل ومقارنة الأسعار.
 
 # 1. قراءة ملف البيانات الحقيقي الذي قشته أنت (Bunnings)
 try:
-    df_bunnings = pd.read_csv("bunnings_competitor_prices.csv")
+    df_bunnings = pd.read_csv("web_competitor_prices.csv")
     print(f"✅ تم تحميل {len(df_bunnings)} منتج من ملف المنافس بنجاح.")
 except FileNotFoundError:
-    print("❌ خطأ: لم يتم العثور على ملف bunnings_competitor_prices.csv! تأكد من تشغيل السكربت الأول أولاً.")
+    print("❌ خطأ: لم يتم العثور على ملف web_competitor_prices.csv! تأكد من تشغيل السكربت الأول أولاً.")
     exit()
 
 # 2. محاكاة بيانات متجر العميل (Vinod Patel) للتجربة:
