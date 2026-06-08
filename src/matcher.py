@@ -6,8 +6,8 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
 # ملفات المدخلات والمخرجات
-customer_file = "vinod_real_prices.csv"
-competitor_file = "bunnings_competitor_prices.csv"
+customer_file = "customer_real_prices.csv"
+competitor_file = "competitor_real_prices.csv"
 output_file = "Smart_Competitor_Analysis.xlsx"
 
 print("🧠 جاري تشغيل خوارزمية المطابقة الذكية والصارمة ومنع خلط الأصناف...")
