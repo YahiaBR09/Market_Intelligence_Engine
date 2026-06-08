@@ -71,13 +71,13 @@ To refresh live market pricing indices and synthesize the final analytical matri
 
 Bash
 # Step 1: Harvest dynamic baseline inventory data
-python src/client_harvester.py
+python src/Customer_web_scrape.py
 
 # Step 2: Extract corresponding competitor catalog layers
-python src/competitor_crawler.py
+python src/competitor_web_scrape.py
 
 # Step 3: Run semantic correlation mapping & generate styled report
-python src/smart_matcher.py
+python src/matcher.py
 📊 Strategic Deliverable Features
 The processing sequence automatically builds a beautifully formatted, executive-ready dashboard saved to data/Market_Pricing_Report.xlsx. Leveraged openpyxl to inject corporate thematic styling and conditional fills:
 
